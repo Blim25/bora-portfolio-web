@@ -1,4 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Router from "src/Router";
 
-ReactDOM.render(<h1>Bora's Portfolio</h1>, document.getElementById("root"));
+ReactDOM.render(<Router />, document.getElementById("root"));
